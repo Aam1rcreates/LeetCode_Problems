@@ -8,7 +8,8 @@ public class Main {
         System.out.println(lengthOfSubString2(s));
 
     }
-
+    
+    // Time: 0(n); Space: 0(n)
     private static int lengthOfSubString2(String s) {
         int maxLength = 0;
         Map<Character, Integer> visitedChar = new HashMap<>();
